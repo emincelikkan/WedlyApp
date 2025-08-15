@@ -47,7 +47,8 @@
     "react-native-url-polyfill": "^2.0.0",
     "react-native-uuid": "^2.0.3",
     "react-native-web": "~0.19.10",
-    "react-native-webview": "13.8.6"
+    "react-native-webview": "13.8.6",
+    "expo-dev-client": "~4.0.29"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

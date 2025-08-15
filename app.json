@@ -8,7 +8,8 @@
     "scheme": "wedly",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.emincelikkan.wedlyapp"
     },
     "web": {
       "bundler": "metro",
@@ -26,6 +27,15 @@
         }
       ],
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "83c9e60b-a89f-4e90-9e5e-0804bd3a98a2"
+      }
+    },
+    "owner": "emincelikkan"
   }
 }
