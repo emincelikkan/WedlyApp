@@ -8,7 +8,11 @@
     "scheme": "wedly",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.emincelikkan.wedly",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "web": {
       "bundler": "metro",
@@ -24,7 +28,8 @@
             "deploymentTarget": "15.1"
           }
         }
-      ]
+      ],
+      "expo-font"
     ],
     "extra": {
       "router": {
