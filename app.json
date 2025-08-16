@@ -9,7 +9,8 @@
     "userInterfaceStyle": "automatic",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.emincelikkan.wedlyapp"
+      "bundleIdentifier": "com.emincelikkan.wedlyapp",
+      "buildNumber": "4"
     },
     "web": {
       "bundler": "metro",
@@ -27,6 +28,14 @@
         }
       ],
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "83c9e60b-a89f-4e90-9e5e-0804bd3a98a2"
+      }
+    }
   }
 }
