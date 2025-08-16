@@ -27,15 +27,6 @@
         }
       ],
       "expo-font"
-    ],
-    "extra": {
-      "router": {
-        "origin": false
-      },
-      "eas": {
-        "projectId": "83c9e60b-a89f-4e90-9e5e-0804bd3a98a2"
-      }
-    },
-    "owner": "emincelikkan"
+    ]
   }
 }
